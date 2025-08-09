@@ -3,7 +3,7 @@ region = "eu-north-1"
 }
 
 resource "aws_instance" "one" {
-count = 4
+count = 5
 ami = "ami-042b4708b1d05f512"
 instance_type = "t3.micro"
 key_name = "pc530PM"
